@@ -1,4 +1,3 @@
-
 import sys
 import helpers 
 from inputdata import InputData
@@ -12,7 +11,7 @@ def main():
 
     input_data = InputData(sys.argv[1])
     input_data.read_input()
-    input_data.populate_int_list_from_lines()
+    input_data.inputfile_lines_to_int_list()
     input_data.calc_num_of_increases()
 
 
