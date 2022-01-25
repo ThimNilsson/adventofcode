@@ -1,2 +1,2 @@
 # adventofcode
-## List of challenges: https://adventofcode.com/2021/day/1
+## List of challenges: https://adventofcode.com/2021
