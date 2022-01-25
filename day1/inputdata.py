@@ -34,6 +34,7 @@ class InputData:
 
 
     def calc_num_of_increases(self):
-        for i, val in enumerate(self.int_list):
-            if i > 0 and self.int_list[i] > self.int_list[i-1]: 
+        length = len(self.int_list)
+        for i in range (1, length,1):
+            if self.int_list[i] > self.int_list[i-1]: 
                 self.num_of_increases += 1
