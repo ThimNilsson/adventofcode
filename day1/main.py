@@ -7,7 +7,9 @@ def main():
 
     # Verify that an argument is passed
     if len(sys.argv) < 2:
-        helpers.usage("missing argument")
+        error = "missing argument"
+        helpers.usage(error)
+        raise OSError(2, 'No such file or directory', '')
 
     inputfile_path = sys.argv[1]
     input_data = InputData(inputfile_path)
