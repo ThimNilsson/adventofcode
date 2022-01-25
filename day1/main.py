@@ -3,7 +3,7 @@ import helpers
 from inputdata import InputData
 
 def main():
-    print("This application is desinged to solves this problem:\nhttps://adventofcode.com/2021/day/1\n")
+    print("This application is desinged to solve this problem:\nhttps://adventofcode.com/2021/day/1\n")
 
     # Verify that an argument is passed
     if len(sys.argv) < 2:
