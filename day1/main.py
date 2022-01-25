@@ -9,11 +9,11 @@ def main():
     if len(sys.argv) < 2:
         helpers.usage("missing argument")
 
-    input_data = InputData(sys.argv[1])
+    inputfile_path = sys.argv[1]
+    input_data = InputData(inputfile_path)
     input_data.read_input()
     input_data.inputfile_lines_to_int_list()
     input_data.calc_num_of_increases()
-
 
     print('The number of increases are {0}\n'.format(input_data.num_of_increases))
 
